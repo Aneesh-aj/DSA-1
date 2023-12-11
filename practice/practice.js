@@ -31,7 +31,6 @@ class linkedlist{
         let str=''
         let current = this.head
         while (current){
-            // console.log(current.value)
             str=str+current.value+'->'
             current = current.next
         }
